@@ -68,8 +68,8 @@ $groups = []; // [g_id, mg_id, g_name, wo_id]
 
 // --- Import metagroups and groups
 
-function db_woocommerce_import_groups() {
-
+function db_woocommerce_import_groups()
+{
     global $servername, $username, $password, $db, $metagroups, $groups;
 
     $conn = new mysqli($servername, $username, $password, $db);
@@ -109,16 +109,14 @@ function db_woocommerce_import_groups() {
     }
     echo '</p>';
 
-
     $conn->close();
-
 }
 
 
 // --- Import items
 
-function db_woocommerce_import_items() {
-
+function db_woocommerce_import_items()
+{
     global $servername, $username, $password, $db, $metagroups, $groups;
 
     $conn = new mysqli($servername, $username, $password, $db);
@@ -148,14 +146,13 @@ function db_woocommerce_import_items() {
     echo '</p>';    
 
     $conn->close();
-
 }
 
 
 // --- Clear WooCommerce
 
-function db_woocommerce_clear() {
-
+function db_woocommerce_clear()
+{
     global $servername, $username, $password, $db_wp;
 
     $conn = new mysqli($servername, $username, $password, $db_wp);
@@ -180,5 +177,4 @@ function db_woocommerce_clear() {
     echo '<p>WooCommerce cleared.</p>';
 
     $conn->close();
-
 }
