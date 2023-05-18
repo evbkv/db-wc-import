@@ -18,7 +18,7 @@ After, you see _Db WC import_ in left menu WordPress admin panel.
 
 ## Author
 
-[Evgenii Bykov](https://github.com/evgeniibykov)
+[Evgenii Bykov](https://github.com/evbkv)
 
 ## License
 
